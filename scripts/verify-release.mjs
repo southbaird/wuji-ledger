@@ -7,6 +7,8 @@ const manifest = JSON.parse(await readFile('manifest.json', 'utf8'));
 const source = await readFile('main.js', 'utf8');
 const css = await readFile('styles.css', 'utf8');
 assert.equal(manifest.id, 'wuji-ledger');
+assert.equal(manifest.name, 'Wuji Ledger');
+assert.match(manifest.name, /^[A-Za-z0-9 +()-]+$/, 'Community directory names must use Basic Latin characters');
 assert.equal(manifest.version, JSON.parse(await readFile('package.json', 'utf8')).version);
 assert.equal(manifest.isDesktopOnly, false);
 assert(!source.includes('summary-static.png'));

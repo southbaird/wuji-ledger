@@ -13,7 +13,7 @@
 
 ## 安装和使用
 
-社区目录审核通过后，可以在 Obsidian 的「设置 → 第三方插件」中搜索「物迹账本」。
+社区目录审核通过后，可以在 Obsidian 的「设置 → 第三方插件」中搜索 **Wuji Ledger**。市场显示名称遵循官方英文命名要求，插件内仍使用「物迹账本」中文界面。
 
 审核期间，可从 [Releases](https://github.com/southbaird/wuji-ledger/releases) 下载同一版本的 `main.js`、`manifest.json` 和 `styles.css`，放入：
 
