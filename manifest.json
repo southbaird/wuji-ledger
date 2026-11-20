@@ -1,0 +1,10 @@
+{
+  "id": "wuji-ledger",
+  "name": "物迹账本",
+  "version": "0.5.0",
+  "minAppVersion": "1.8.0",
+  "description": "Track belongings, accessories, ownership costs, and archived items locally.",
+  "author": "southbaird",
+  "authorUrl": "https://github.com/southbaird",
+  "isDesktopOnly": false
+}
